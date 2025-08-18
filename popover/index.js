@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function (event) {
+document.addEventListener("DOMContentLoaded", function () {
   const openButton = document.getElementsByClassName("openbutton");
   const closeButton = document.getElementsByClassName("close-button");
   const popover = document.getElementsByClassName("popover")[0];
