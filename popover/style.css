@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.popover {
+  display: none;
+  position: relative;
+  width: 200px;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 4px;
+}
+.popover-header {
+  padding: 10px;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+}
+.popover-body {
+  padding: 10px;
+}
+.close-button {
+  cursor: pointer;
+}
